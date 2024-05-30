@@ -1,0 +1,44 @@
+body {
+background: linear-gradient(67deg, #181717, #9a807f);
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.field {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 330px;
+    padding: 4px;
+    margin: 60px auto;
+    background-color: #c2c3c2;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(90, 56, 56);
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.win-message {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin: 20px;
+}
