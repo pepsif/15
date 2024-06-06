@@ -42,3 +42,15 @@ background: linear-gradient(67deg, #181717, #9a807f);
     text-align: center;
     margin: 20px;
 }
+
+.shuffle {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color:#6b5b5b;
+border: none;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+}
