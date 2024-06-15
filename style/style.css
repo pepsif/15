@@ -1,5 +1,5 @@
 body {
-background: linear-gradient(67deg, #181717, #9a807f);
+    background: #656565;
     color: white;
     padding: 0;
     margin: 0;
@@ -14,24 +14,31 @@ background: linear-gradient(67deg, #181717, #9a807f);
 }
 
 .field {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-content: space-around;*/
+    /*flex-wrap: wrap;*/
     width: 320px;
     height: 330px;
     padding: 4px;
     margin: 60px auto;
-    background-color: #c2c3c2;
+
+    background: #656565;
+    border-radius: 100%;
+    box-shadow: inset 9.91px 9.91px 15px #5C5C5C, inset -9.91px -9.91px 15px #6E6E6E;
 }
 
 .cell {
     width: 100px;
     height: 100px;
-    background-color: rgb(90, 56, 56);
+
     font-size: 36px;
     text-align: center;
     line-height: 100px;
+
+    background: linear-gradient(145deg, #777777, #535353);
+    border-radius: 15%;
+    box-shadow: 9.91px 9.91px 15px #5C5C5C, -9.91px -9.91px 15px #6E6E6E;
 }
 
 .win-message {
@@ -46,20 +53,28 @@ background: linear-gradient(67deg, #181717, #9a807f);
 .shuffle {
     margin-left: 50%;
     transform: translateX(-50%);
-    background-color:#6b5b5b;
+
 border: none;
     border-radius: 10px;
     padding: 16px;
     font-size: 18px;
     font-weight: bold;
     color:white;
+
+    background: linear-gradient(145deg, #777777, #535353);
+    border-radius: 15%;
+    box-shadow: 9.91px 9.91px 15px #5C5C5C, -9.91px -9.91px 15px #6E6E6E;
 }
 
 .move-counter {
 
     font-size: 24px;
-    margin-left: 80px;
+
 }
 .count {
 
+}
+.last-result-block {
+    margin-top: 20px;
+    font-size: 24px;
 }

@@ -9,6 +9,10 @@ let cellArr = [1, 2, 3, 4, 5, 6, 7, 8, 0];
 
 let count = 0;
 
+localStorage.setItem('resultArr',JSON.stringify( [ { move: 10 }, { move: 30 } ] )  );
+
+console.log(localStorage.getItem('resultArr'))
+
 // --CREATE FIELD --
 
 cellArr.forEach((item, index) => {
@@ -109,7 +113,9 @@ function testWin() {
         let winMessage = document.createElement("h3");
         winMessage.className = "win-message";
         winMessage.textContent = "Ви Виграли!!!"
-        document.body.prepend(winMessage)
+        document.body.prepend(winMessage);
+
+        localStorage.setItem('winCount',count)
     }
 
 }

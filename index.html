@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./foundations/css/foundation.css">
     <link href="./style/style.css" rel="stylesheet"/>
 
     <title>15</title>
 </head>
 <body>
 
-<div class="container">
+<div class="grid-container">
    
-   <div class="field">
+   <div class="field grid-x align-justify">
     
    </div>
 
-    <div class="move-counter">
-        Кількість ходів:
-        <span class="count">0</span>
+    <div class="grid-x">
+        <div class="move-counter">
+            Кількість ходів:
+            <span class="count">0</span>
+        </div>
+
     </div>
 
+
    <button class="shuffle" >Перемішати</button>
+
+    <div class="last-result-block">
+        Останні результати:<span class="last-result">тест</span>
+    </div>
 
 </div>
 
 <script src="script.js"></script>
+<script src="./foundations/js/foundation.js"></script>
 
 </body>
 </html>
