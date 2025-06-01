@@ -1,6 +1,7 @@
 let diametr = document.querySelector('.diameter');
 let depth = document.querySelector('.depth');
 let calcButton = document.querySelector(".calc-button");
+const calcResult = document.querySelector(".calc-result");
 
 function calculateVolumeFromDiameter() {
     // Отримуємо значення в сантиметрах
@@ -20,7 +21,7 @@ function calculateVolumeFromDiameter() {
     const radius = diameter / 2;
     const volume = Math.PI * Math.pow(radius, 2) * height;
 
-    console.log(`Обʼєм стовпа: ${volume.toFixed(3)} м³`);
+    calcResult.textContent = `Обʼєм стовпа: ${volume.toFixed(3)} м³`;
 }
 
 // Прив’язуємо функцію до кнопки
