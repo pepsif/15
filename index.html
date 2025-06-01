@@ -10,21 +10,17 @@
 <body>
 
 <div class="grid-container">
-   
-   <div class="field grid-x align-justify">
-    
-   </div>
+
+    <div class="field grid-x align-justify"> </div>
 
     <div class="grid-x">
         <div class="move-counter">
             Кількість ходів:
             <span class="count">0</span>
         </div>
-
     </div>
 
-
-   <button class="shuffle" >Перемішати</button>
+    <button class="shuffle">Перемішати</button>
 
     <div class="last-result-block">
         Останні результати:<span class="last-result">тест</span>
@@ -32,8 +28,23 @@
 
 </div>
 
+  <!-- // CALCULATOR -->
+
+  <section class="calculator">
+    <div class="container">
+       
+        <input class="diameter" type="text" placeholder="Діаметр в см">
+        <input class="depth" type="text" placeholder="Глибина в см">
+        <button class="calc-button">Розрахувати</button>
+        <span class="calc-result mr-4"></span>
+
+       
+    </div>
+  </section>
+
 <script src="script.js"></script>
 <script src="./foundations/js/foundation.js"></script>
+<script src="calc.js"></script>
 
 </body>
 </html>
